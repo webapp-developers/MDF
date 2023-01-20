@@ -47,3 +47,11 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+$('.single-item').slick({
+    dots: true,
+    autoplay: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true
+});
